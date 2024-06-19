@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Website Using Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <menu>
+        <div id="home"> Home <span id="math-home"></span></div>
+        <div id="about">About <span id="math-about"></span></div>
+        <div id="hireme">hire Me <span id="math-hireme"></span></div>
+        <div id="portfolio">Port-Folio <span id="math-portfolio"></span></div>
+    </menu>
+
+    <div id="calculator">
+        <div id="answerbox"> 
+            <form id="box" >
+            <input id="inputSpace" type="text" placeholder="Calculate the math under each item at the top">
+        </form> </div>
+        <div class="btns">
+            <div class="button-row" id="row1">
+                <div class="btn" id="open-bracket"></div>
+                <div class="btn" id="close-bracket" ></div>
+                <div class="btn" id="%" ></div>
+                <div class="btn" id="AC"></div>
+            </div>
+            <div class="button-row" id="row2">
+                <div class="btn" id="9"></div>
+                <div class="btn" id="8"></div>
+                <div class="btn" id="7"></div>
+                <div class="btn" id="÷"></div>
+            </div>
+            <div class="button-row" id="row3">
+                <div class="btn" id="6"></div>
+                <div class="btn" id="5"></div>
+                <div class="btn" id="4"></div>
+                <div class="btn" id="x"></div>
+            </div>
+            <div class="button-row" id="row4">
+                <div class="btn" id="3"></div>
+                <div class="btn" id="2"></div>
+                <div class="btn" id="1"></div>
+                <div class="btn" id="minus"></div>
+            </div>
+            <div class="button-row" id="row5">
+                <div class="btn" id="0"></div>
+                <div class="btn" id="dot"></div>
+                <div class="btn" id="equals">
+                    <a id="aboutLink" href="./about.html"></a>
+                    <a id="hiremeLink" href="./Hireme.html"></a>
+                    <a id="portfolioLink" href="./Portfolio.html"></a>
+                </div>
+                <div class="btn" id="plus"></div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="./index.js"></script>
+</body>
+</html>
